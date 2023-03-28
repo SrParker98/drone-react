@@ -1,0 +1,207 @@
+$main-color:rgb(255, 255, 255);
+$secondary-color: rgb(255, 255, 255);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{  margin: 0;
+    padding: 0;
+    font-family:  'Montserrat', sans-serif;;
+    box-sizing: border-box;
+   
+    
+}
+
+/*---Nav styles--*/
+.top-bar{
+    right: 0;
+    padding-right: 2em;
+   display: flex;
+   height: 80px;
+   justify-content: center;
+   background-color: none;
+   position: fixed;
+   
+   
+}
+
+.top-bar-ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap:2em;
+    justify-content: right;
+    
+    
+}
+
+.nav-li{
+    list-style: none;
+    color: #ffc814;
+    font-size: 1em;
+    
+}
+
+/*---Landing style---*/
+
+.main-landing-container{
+    height: calc(100vh);
+    background-image: url(./images/1e726a4b542cfc222f550d959809ef89.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:30vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    
+}
+
+.block-landing{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+    padding-left: 2em;
+    
+}
+
+.h1-landing{
+    padding-bottom: 1em;
+    font-size:72px;
+    color: white;
+}
+
+/*---BTN-STYLE---*/
+.btn-container{
+    padding-top: 2em;
+    padding-left: 11%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+    
+
+}
+
+.btn-landing{
+    
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-left: 2.7em;
+    padding-right: 2.7em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    background-color: #ffc814;
+    font-weight: 600;
+    
+}
+
+.btn-landing:hover{
+    opacity: 80%;
+}
+
+/*--- Dron description style--*/
+
+.dron-description-main-container{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    background-image: url(./images/Drone-PNG-Transparent-Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40%;
+   
+}
+
+.dron-description{
+    padding-left: 10%;
+    
+}
+
+.ul-drone{
+    list-style: none;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:1em;
+    
+}
+.drone-btn{
+    margin-top: 2em;
+}
+
+
+/*--- Second drone---*/
+
+.dron2-description-main-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.card-2{
+    background-image: url(./images/dronepicture.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.cta-drone2{
+    
+    padding-top: 70vh;
+    
+}
+.drone-btn2{
+    color: black;
+    
+}
+
+/*---last drone picture---*/
+
+.dron3-description-main-container{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./images/lasticture.jpg);
+    
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+
+}
+
+.drone-text-last{
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
